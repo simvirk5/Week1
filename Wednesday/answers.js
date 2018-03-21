@@ -60,6 +60,12 @@ karolin [1] = 17
 matt[2] = 'Gotham City'
 kristyn[2] = 'Brooklyn'
 
+Yell at the Ninja Turtles
 
+var members = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+  for (var i = 0; i <= 3; i++) {
+    members[i] = members[i].toUpperCase();
+  }
+  console.log(members);
 
 
