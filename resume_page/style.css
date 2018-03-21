@@ -1,13 +1,12 @@
 
-h1 {
+body {
 	font-family: Raleway;
 	text-align: center;
-	text-decoration: underline;
-	text-transform: uppercase;
+	
 }
 
 h2 {
-	color: white;
+	color: blue;
 }
 
 h3 {
@@ -16,5 +15,11 @@ h3 {
 
 .column {
     float: left;
-    width: 33.33%;
+    width: 33%;
+
+}
+
+h1 {
+	text-decoration: underline;
+	text-transform: uppercase;
 }
