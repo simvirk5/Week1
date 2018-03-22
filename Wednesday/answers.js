@@ -83,4 +83,45 @@ console.log("The first outfit is " + kristynAndThom[0] + " for a day out." +
 " The second outfit is " + kristynAndThom[1] + " for a night out." +
 " The third outfit is " + kristynAndThom[2] + " for a day out in the sun.");
 
+Dirty Laundry
+
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+
+  for (let i = 0; i<=kristynsCloset.length; i++) {
+ 	console.log( "WHIRR: Now washing", kristynsCloset[i]);
+ }
+
+Inventory
+
+
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
+
+console.log([thomsCloset[0].length,thomsCloset[1].length,thomsCloset[2].length]);
+
 
