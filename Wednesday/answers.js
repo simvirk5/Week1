@@ -12,16 +12,14 @@ for(var i=1; i<=20; i++) {
 }
 
 
-//  function evenNumbers(n) { 
-//   for(var i=0; i<=20; i+=2) {
-//  	arr.push[Math.random("human..why you taking pictures of me?.." || 
-//  		"..the catnip made me do it.." || 
-//  		"..why does the red dot always get away")];
+var catMessage = [“the catnip made me do it”, “Human, why are you taking a picture of me”, “why does the red dot get away”];
 
-// }
-
-// 	return var;
-// }
+for(let i = 0; i < 20; i++) {
+    if ( i % 2 === 0) {
+    var randomMessageIndex = (Math.floor(Math.random() * 3));
+    console.log(i, catMessage[randomMessageIndex])
+}
+}
 
 Fizz Buzz
 
@@ -124,4 +122,12 @@ const thomsCloset = [
 
 console.log([thomsCloset[0].length,thomsCloset[1].length,thomsCloset[2].length]);
 
+Multiples of 3 and 5
 
+var sum = 0
+for(var i=0; i<1000; i++) {
+	if (i%3===0 || i%5===0) {
+		sum += i;
+	}
+}
+console.log(sum);
