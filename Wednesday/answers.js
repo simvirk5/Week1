@@ -68,4 +68,19 @@ var members = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
   }
   console.log(members);
 
+Closet
+
+var kristynsShoe = kristynsCloset.shift()
+console.log(kristynsShoe)
+thomsCloset[2].push(kristynsShoe)
+console.log(thomsCloset[2]);
+
+Dress Up
+
+var kristynAndThom = [["GA hoodie", "green pants"], ["grey button-up", "jeans", "wool scarf"], ["cowboy boots", "grey jeans", "raybans"]];
+
+console.log("The first outfit is " + kristynAndThom[0] + " for a day out." +
+" The second outfit is " + kristynAndThom[1] + " for a night out." +
+" The third outfit is " + kristynAndThom[2] + " for a day out in the sun.");
+
 
